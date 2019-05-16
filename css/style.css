@@ -197,7 +197,7 @@ nav.navbar {
 .content {
   background: url("../images/background.png"); /* The image used */
   height: auto; /* You must set a specified height */
-  min-height: 1000px;
+  min-height: 600px;
   max-height: auto;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: auto; /* Resize the background image to cover the entire container */
@@ -256,10 +256,8 @@ nav.navbar {
   max-height: 200;
 }
 
-.align-middle {
-}
-
 #slider {
+  margin-top: -10%;
 }
 
 footer {
