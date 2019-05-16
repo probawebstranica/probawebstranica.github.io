@@ -1,8 +1,9 @@
 #logo {
   float: none;
   position: absolute;
-  z-index: 999;
-  max-width: 100%;
+  z-index: 1;
+  width: auto;
+  max-width: 50%;
   height: auto;
   padding-left: 0%;
   margin-top: -2.5%;
@@ -196,9 +197,10 @@ nav.navbar {
 .content {
   background: url("../images/background.png"); /* The image used */
   height: auto; /* You must set a specified height */
-  min-height: 700px;
+  min-height: 1000px;
+  max-height: auto;
   background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: 150%; /* Resize the background image to cover the entire container */
+  background-size: auto; /* Resize the background image to cover the entire container */
   width: 100%;
   text-align: center;
   margin-top: -14.3%;
