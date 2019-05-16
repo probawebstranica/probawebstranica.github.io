@@ -38,10 +38,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <script src="js/jquery.flexslider-min.js"></script>
-    <script
-      type="text/javascript"
-      src="javascripts/modernizr.foundation.js"
-    ></script>
+    <link rel="stylesheet" href="responsive-nav.css">
+<script src="responsive-nav.js"></script>
+
     <script src="script/script.js"></script>
 
     <!-- Theme style  -->
@@ -110,10 +109,11 @@
         </div>
       </div>
 
-      <p class="phone-number">+387 35 875 965</p>
-      <nav class="navbar navbar-expand-lg">
+      <p class="phone-number container-fluid text-right">+387 35 875 965</p>
+      <nav class="navbar navbar-expand-lg static-top">
         <a class="navbar-brand" href="index.html">
-          <div class="box">
+          <div class="container">
+          
             <img
               src="images/Logo.png"
               class="img-fluid"
@@ -121,21 +121,22 @@
               class="d-inline-block align-top"
               alt="logo"
             />
-          </div>
+          
         </a>
         <!-- Toggler/collapsibe Button -->
         <button
           class="navbar-toggler navbar-light"
           type="button"
           data-toggle="collapse"
-          data-target="#collapsibleNavbar"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <div class="collapse navbar-collapse nav-collapse" id="navbarResponsive">
           <div class="navigation">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
                 <a class="nav-link active" href="index.html"
                   >POČETNA <span class="sr-only">(current)</span></a
@@ -213,6 +214,7 @@
             </ul>
           </div>
         </div>
+      </div>
       </nav>
       <div class="card-deck">
         <div class="table-responsive">
@@ -303,10 +305,10 @@
             pošaljite upit na koji ćemo brzo odgovoriti sa informacijama koje su
             Vam potrebne.
           </p>
-          <button class="btn btn-warning">Pošaljite Upit</button>
+          <button class="btn btn-warning question">Pošaljite Upit</button>
         </div>
       </div>
-      <div class="projects">
+      <div class="projects container-fluid text-center">
         <div id="slider" class="text-center">
           <div class="d-flex justify-content-center">
             <table>
@@ -366,75 +368,80 @@
           <h1 class="title"><b>REALIZOVANI</b> PROJEKTI</h1>
         </div>
       </div>
-      <div class="footer">
-        <table class="table table-borderless">
-          <tbody>
-            <tr>
-              <div class="container text-right">
-                <a href="#"
-                  ><img
-                    src="images/social/facebook.png"
-                    alt="facebook"
-                    class="social"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="images/social/twitter.png"
-                    alt="twitter"
-                    class="social"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="images/social/linkedin.png"
-                    alt="linkedin"
-                    class="social"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="images/social/pinterest.png"
-                    alt="pinterest"
-                    class="social"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="images/social/youtube.png"
-                    alt="youtube"
-                    class="social"
-                /></a>
-                <a href="#"
-                  ><img
-                    src="images/social/instagram.png"
-                    alt="instagram"
-                    class="social"
-                /></a>
-              </div>
-            </tr>
-            <div class="d-flex justify-content-center footer-bot">
-              <tr>
-                <td class="align-middle foot-col"></td>
-                <td class="align-middle foot-col">
-                  Tel: <b>00387 35 875 965</b>
-                </td>
-                <td class="align-middle foot-col">
-                  Mob: <b>00387 61 736 116</b>
-                </td>
-                <td class="align-middle foot-col">
-                  <img
-                    src="images/Logo.png"
-                    class="d-inline-block align-top"
-                    alt="logo"
-                  />
-                </td>
-
-                <td class="align-middle foot-col">
-                  Hasanagić d.o.o. | Litva bb | 75 290 Banovići
-                </td>
-                <td class="align-middle foot-col"></td>
-              </tr>
+      <!-- Footer -->
+      <footer class="page-footer font-small text-white pt-4">
+        <!-- Footer Links -->
+        <div class="container-fluid text-center text-md-left">
+            <div class="container-fluid text-right social">
+              <a href="#"
+                ><img
+                  src="images/social/facebook.png"
+                  alt="facebook"
+                  class="social"
+              /></a>
+              <a href="#"
+                ><img
+                  src="images/social/twitter.png"
+                  alt="twitter"
+                  class="social"
+              /></a>
+              <a href="#"
+                ><img
+                  src="images/social/linkedin.png"
+                  alt="linkedin"
+                  class="social"
+              /></a>
+              <a href="#"
+                ><img
+                  src="images/social/pinterest.png"
+                  alt="pinterest"
+                  class="social"
+              /></a>
+              <a href="#"
+                ><img
+                  src="images/social/youtube.png"
+                  alt="youtube"
+                  class="social"
+              /></a>
+              <a href="#"
+                ><img
+                  src="images/social/instagram.png"
+                  alt="instagram"
+                  class="social"
+              /></a>
             </div>
-          </tbody>
-        </table>
-      </div>
+          </div>
+          <!-- Grid row -->
+          <div class="row container-fluid text-right">
+            <!-- Grid column -->
+            <div class="col-sm-2 mb-md-0 mb-3 mt-4">
+              <!-- Content -->
+              <p>Tel: <b>00387 35 875 965</b></p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-sm-2 mb-md-0 mb-3 mt-4">
+              <!-- Links -->
+              <p>Mob: <b>00387 61 736 116</b></p>
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-sm-2 mb-md-3 mb-3 container-fluid text-center">
+              <img src="images/Logo.png" alt="logo" style="margin-left: 25%" />
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-sm-5 mb-md-0 mb-3 mt-4">
+              <p>Hasanagić d.o.o. | Litva bb | 75 290 Banovići</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+        <!-- Footer Links -->
+      </footer>
+      <!-- Footer -->
     </div>
   </body>
 </html>

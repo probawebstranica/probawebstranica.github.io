@@ -4,7 +4,7 @@
   z-index: 999;
   max-width: 100%;
   height: auto;
-  padding-left: 10%;
+  padding-left: 0%;
   margin-top: -2.5%;
 }
 
@@ -17,12 +17,12 @@
   box-sizing: border-box;
 }
 
-.box {
+/* .box {
   float: left;
   width: 33.33%;
   padding-left: 0%;
-  z-index: 999;
-}
+  z-index: 1;
+} */
 
 .clearfix::after {
   content: "";
@@ -101,8 +101,8 @@ nav.navbar {
 }
 
 .nav-link {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 0%;
+  padding-right: 0%;
   color: black;
   font-family: worksans-regular;
 }
@@ -125,7 +125,7 @@ nav.navbar {
 
 .navigation {
   padding-top: 1%;
-  padding-left: 50%;
+  margin-left: 50%;
   float: none;
 }
 
@@ -153,6 +153,7 @@ nav.navbar {
   padding-top: 2%;
   padding-bottom: 0;
   margin-top: 0;
+  padding-right: 5%;
   color: #ff9c00;
   font-family: worksans-semibold;
   z-index: 999;
@@ -195,7 +196,7 @@ nav.navbar {
 .content {
   background: url("../images/background.png"); /* The image used */
   height: auto; /* You must set a specified height */
-  min-height: 1500px;
+  min-height: 700px;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: 150%; /* Resize the background image to cover the entire container */
   width: 100%;
@@ -259,16 +260,13 @@ nav.navbar {
 #slider {
 }
 
-.footer {
+footer {
   background-color: #1b1a1a;
-  width: 100%;
-  height: auto;
 }
 
 .social {
-  height: 2.5%;
-  width: 2.5%;
-  margin-top: 5%;
+  margin-top: 0%;
+  margin-bottom: 2%;
 }
 
 .foot-col {
@@ -290,6 +288,9 @@ html {
   max-width: 957px;
 }
 
+.question {
+  margin-top: 5%;
+}
 .card-deck {
   width: 100%;
   margin-top: 24.5%;

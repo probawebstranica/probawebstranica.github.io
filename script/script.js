@@ -20,8 +20,8 @@ function nextImage() {
 
 function prevImage() {
     var images = ['images/first-slide.png', 'images/second-slide.png', 'images/third-slide.png', 'images/fourth-slide.png', 'images/fifth-slide.png', 'images/sixth-slide.png', 'images/seventh-slide.png'];
-    if (i < 4) {
-        i = i + 4;
+    if (i == 0) {
+        i = 4;
     } else {
         i--;
     }
@@ -30,4 +30,6 @@ function prevImage() {
     document.getElementById('third').src = images[i + 2]
     console.log(i, images[i])
 }
+
+var nav = responsiveNav(".nav-collapse");
 
