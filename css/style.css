@@ -143,7 +143,13 @@ body {
 
 .server-icon {
     height: 30%;
-    width: 30%;
+    width: 35%;
+    border-radius: 25px;
+}
+
+.server-icon-us {
+    height: 60px;
+    width: 90px;
     border-radius: 25px;
 }
 
@@ -475,6 +481,9 @@ body {
     .header-left {
         padding-left: 10px;
     }
+    .card-group {
+        width: min-content;
+    }
 }
 
 
@@ -547,7 +556,7 @@ body {
     font-size: 1.5em;
     background: none;
     vertical-align: sub;
-    line-height: 55px;
+    line-height: 50px;
     padding: 10%;
     border: solid 2px #FFF;
     color: #FFF;
@@ -610,7 +619,7 @@ body {
 .social ul li a i.fa.fa-ebay:hover {
     height: 60px;
     width: 60px;
-    line-height: 55px;
+    line-height: 50px;
     background: #82c91e;
 }
 
