@@ -1,447 +1,354 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- Bootstrap CSS-->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    />
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="path/to/font-awesome/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-      integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-    <script src="js/jquery.flexslider-min.js"></script>
-    <link rel="stylesheet" href="responsive-nav.css">
-<script src="responsive-nav.js"></script>
 
-    <script src="script/script.js"></script>
+<head>
+    <title>TANKS-MARKET</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Tanks market, WoT" />
+    <script type="application/x-javascript">
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
 
-    <!-- Theme style  -->
-    <link rel="stylesheet" href="css/style.css" />
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- bootstrap-css -->
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- font -->
+    <link href="//fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Ubuntu:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <!-- light-box -->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <script src="js/SmoothScroll.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+</head>
 
-    <title>H-Line Furniture Home</title>
-  </head>
-
-  <body>
-    <div id="page">
-      <div
-        id="carouselExampleFade"
-        class="carousel slide carousel-fade"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="d-block w-100"
-              src="images/first-slide.png"
-              alt="First slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="images/second-slide.png"
-              alt="Second slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="images/third-slide.png"
-              alt="Third slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="images/fourth-slide.png"
-              alt="Fourth slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="images/fifth-slide.png"
-              alt="Fifth slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="images/sixth-slide.png"
-              alt="Sixth slide"
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="d-block w-100"
-              src="images/seventh-slide.png"
-              alt="Seventh slide"
-            />
-          </div>
-        </div>
-      </div>
-
-      <p class="phone-number container-fluid text-right">+387 35 875 965</p>
-      <nav class="navbar navbar-expand-lg static-top">
-        <a class="navbar-brand" href="index.html">
-          <div class="container">
-          
-            <img
-              src="images/Logo.png"
-              class="img-fluid"
-              id="logo"
-              class="d-inline-block align-top"
-              alt="logo"
-            />
-          
-        </a>
-        <!-- Toggler/collapsibe Button -->
-        <button
-          class="navbar-toggler navbar-light"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse nav-collapse" id="navbarResponsive">
-          <div class="navigation">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link active" href="index.html"
-                  >POČETNA <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">O NAMA</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">PROIZVODI</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="false"
-                  aria-expanded="false"
-                >
-                  MATERIJALI
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <div class="dropdown-block">
-                    <a class="dropdown-item" href="#">&#9826; PLAKARI</a>
-                  </div>
-                  <div class="dropdown-block">
-                    <a class="dropdown-item" href="#">&#9826; KOMODE</a>
-                  </div>
-                  <div class="dropdown-block">
-                    <a class="dropdown-item" href="#">&#9826; KREVETI</a>
-                  </div>
-                  <div class="dropdown-block">
-                    <a class="dropdown-item" href="#">&#9826; STOLOVI</a>
-                  </div>
-                  <div class="dropdown-block">
-                    <a class="dropdown-item" href="#">&#9826; KUHINJE</a>
-                  </div>
-                  <div class="dropdown-block">
-                    <a class="dropdown-item" href="#">&#9826; NOĆNI ORMARIĆI</a>
-                  </div>
-                  <div class="dropdown-block">
-                    <a class="dropdown-item" href="#">&#9826; PREDSOBLJA</a>
-                  </div>
-                  <div class="dropdown-block">
-                    <a class="dropdown-item" href="#">&#9826; SPAVAĆE SOBE</a>
-                  </div>
-                  <div class="dropdown-block">
-                    <a class="dropdown-item" href="#">&#9826; DNEVNI BOROVAK</a>
-                  </div>
-                  <div class="dropdown-block">
-                    <a class="dropdown-item" href="#">&#9826; DJEČIJE SOBE</a>
-                  </div>
-                  <div class="dropdown-block">
-                    <a class="dropdown-item" href="#"
-                      >&#9826; HOTELSKI NAMJEŠTAJ</a
-                    >
-                  </div>
-                  <div class="dropdown-block">
-                    <a class="dropdown-item" href="#"
-                      >&#9826; KUPATILSKI NAMJEŠTAJ</a
-                    >
-                  </div>
-                  <div class="dropdown-block-last">
-                    <a class="dropdown-item" href="#"
-                      >&#9826; KANCELARIJSKI NAMJEŠTAJ</a
-                    >
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">KONTAKT</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      </nav>
-      <div class="card-deck">
-        <div class="table-responsive">
-          <table class="table table-borderless">
-            <tr>
-              <td>
-                <div class="col-sm-3 col-sm-offset-1">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="images/kuhinje.png"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title"><b class="link">Kuhinje</b></h5>
-                      <p class="card-text">
-                        Kuhinje po mjeri za svačiji ukus!
-                      </p>
-                      <a href="#" class="btn btn-warning">DETALJNIJE</a>
-                    </div>
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div class="col-sm-3 col-sm-offset-1">
-                  <div class="card">
-                    <img
-                      class="card-img-top"
-                      src="images/badroom.png"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        <b class="link">Spavaće sobe</b>
-                      </h5>
-                      <p class="card-text">
-                        Spavaće sobe za vrhunski odmor!
-                      </p>
-                      <a href="#" class="btn btn-warning">DETALJNIJE</a>
-                    </div>
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div class="col-sm-3 col-sm-offset-1">
-                  <div class="card">
-                    <img
-                      class=" card-img-top"
-                      src="images/plakari.png"
-                      alt="Card image cap"
-                    />
-                    <div class="card-body">
-                      <h5 class="card-title">
-                        <b class="link">Plakari</b>
-                      </h5>
-                      <p class="card-text">
-                        Plakari bilo koje namjene!
-                      </p>
-                      <a href="#" class="btn btn-warning">DETALJNIJE</a>
-                    </div>
-                  </div>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div class="content">
-        <div class="content-text">
-          <h1 class="title">MJESTO <b>ISPUNJENJA</b> VAŠIH <b>ŽELJA!</b></h1>
-          <p class="text">
-            <b>H-LINE FURNITURE</b> je ​BREND osmišljen za proizvode
-            visokokvalitetnog namještaja, po evropskim standardima i po željama
-            klijenata.Veliki izbor namještaja po Vašim željama smo u mogućnosti
-            proizvesti sa najsavremenijim mašinama, materijalima i profesionalno
-            osposobljenim osobljem.
-          </p>
-          <p class="text">
-            Mi smo kompanija koja želi da naš proizvod bude ispunjenje želja
-            naših klijenata. Naša misija je da u skladu sa potrebama naših
-            klijenata, uslovima pozicioniranja naših proizvoda i finansijskim
-            mogućnostima ispunimo njihove želje.
-          </p>
-          <p class="text" style="padding-bottom: 2%">
-            Vaše želje prepustite nama, a mi ćemo ih pretvoriti u realnost. Na
-            ovoj stranici u dijelu
-            <a><b class="link">PROIZVODI</b></a> odaberite proizvod, te nam
-            pošaljite upit na koji ćemo brzo odgovoriti sa informacijama koje su
-            Vam potrebne.
-          </p>
-          <button class="btn btn-warning question">Pošaljite Upit</button>
-        </div>
-      </div>
-      <div class="projects container-fluid text-center">
-        <div id="slider" class="text-center">
-          <div class="d-flex justify-content-center align-middle">
-            <table>
-              <tbody>
-                <tr>
-                  <td class="align-middle">
-                    <button
-                      class="prew align-middle"
-                      onclick="prevImage()"
-                      style="background: none;  border: none"
-                    >
-                      <i
-                        class="fa fa-chevron-left"
-                        style="font-size:48px; color:grey;"
-                      ></i>
-                    </button>
-                  </td>
-                  <td class="align-middle">
-                    <img
-                      class="gallery"
-                      id="first"
-                      src="images/first-slide.png"
-                    />
-                  </td>
-                  <td class="align-middle">
-                    <img
-                      class="gallery"
-                      id="second"
-                      src="images/second-slide.png"
-                    />
-                  </td>
-                  <td class="align-middle">
-                    <img
-                      class="gallery"
-                      id="third"
-                      src="images/third-slide.png"
-                    />
-                  </td>
-                  <td class="align-middle">
-                    <button
-                      class="next align-middle"
-                      style="background: none; border: none"
-                      onclick="nextImage()"
-                    >
-                      <i
-                        class="fa fa-chevron-right"
-                        style="font-size:48px; color:grey;"
-                      ></i>
-                    </button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-        <div class="d-flex justify-content-center">
-          <h1 class="title"><b>REALIZOVANI</b> PROJEKTI</h1>
-        </div>
-      </div>
-      <!-- Footer -->
-      <footer class="page-footer font-small text-white pt-4">
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
-            <div class="container-fluid text-right social">
-              <a href="#"
-                ><img
-                  src="images/social/facebook.png"
-                  alt="facebook"
-                  class="social"
-              /></a>
-              <a href="#"
-                ><img
-                  src="images/social/twitter.png"
-                  alt="twitter"
-                  class="social"
-              /></a>
-              <a href="#"
-                ><img
-                  src="images/social/linkedin.png"
-                  alt="linkedin"
-                  class="social"
-              /></a>
-              <a href="#"
-                ><img
-                  src="images/social/pinterest.png"
-                  alt="pinterest"
-                  class="social"
-              /></a>
-              <a href="#"
-                ><img
-                  src="images/social/youtube.png"
-                  alt="youtube"
-                  class="social"
-              /></a>
-              <a href="#"
-                ><img
-                  src="images/social/instagram.png"
-                  alt="instagram"
-                  class="social"
-              /></a>
-            </div>
-          </div>
-          <!-- Grid row -->
-          <div class="row container-fluid text-right">
-            <!-- Grid column -->
-            <div class="col-sm-2 mb-md-0 mb-3 mt-4">
-              <!-- Content -->
-              <p>Tel: <b>00387 35 875 965</b></p>
-            </div>
-            <!-- Grid column -->
-
-            <!-- Grid column -->
-            <div class="col-sm-2 mb-md-0 mb-3 mt-4">
-              <!-- Links -->
-              <p>Mob: <b>00387 61 736 116</b></p>
-            </div>
-            <!-- Grid column -->
-            <!-- Grid column -->
-            <div class="col-sm-2 mb-md-3 mb-3 container-fluid text-center">
-              <img src="images/Logo.png" alt="logo" style="margin-left: 25%" />
-            </div>
-            <!-- Grid column -->
-            <!-- Grid column -->
-            <div class="col-sm-5 mb-md-0 mb-3 mt-4">
-              <p>Hasanagić d.o.o. | Litva bb | 75 290 Banovići</p>
-            </div>
-            <!-- Grid column -->
-          </div>
-          <!-- Grid row -->
-        </div>
-        <!-- Footer Links -->
-      </footer>
-      <!-- Footer -->
+<body>
+    <div data-spy="affix" id="dot-nav">
+        <ul>
+            <li class="awesome-tooltip active" title="Home">
+                <a href="#home"></a>
+            </li>
+            <li class="awesome-tooltip" title="MoE">
+                <a href="#moe"></a>
+            </li>
+            <li class="awesome-tooltip" title="Grind">
+                <a href="#grind"></a>
+            </li>
+            <li class="awesome-tooltip" title="260or279">
+                <a href="#or279"></a>
+            </li>
+            <li class="awesome-tooltip" title="We">
+                <a href="#ourTeam"></a>
+            </li>
+        </ul>
     </div>
-  </body>
-</html>
+    <!-- banner -->
+    <div class="banner">
+        <div class="banner-dot">
+            <!-- header-top -->
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-left">
+                        <div class="col-sm-8">
+                            <h1><a href="index.html">TANKS <span>MARKET</span></a></h1>
+                        </div>
+                    </div>
+                    <!-- <div class="header-right"> -->
+                    <div class="header" id="home">
+                        <div class="container">
+                            <nav class="navbar navbar-default">
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button>
+                                </div>
+                                <!--navbar-header-->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="#home" class="active">Home</a></li>
+                                        <li><a href="#moe" class="scroll">Marks of Exelence</a></li>
+                                        <li><a href="#grind" class="scroll">Credits Grind</a></li>
+                                        <li><a href="#or279" class="scroll">260or279</a></li>
+                                        <li><a href="#ourTeam" class="scroll">Our Team</a></li>
+                                    </ul>
+                                    <div class="clearfix"> </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <!-- banner-info -->
+                <div class="banner-info">
+                    <div class="container">
+                        <div class="w3layouts-text slide-down">
+                            <h2>Welcome</h2>
+                            <div class="d-flex justify-content-center" style="margin: 5% 30% 4.5% 30%; ">
+                                <h3 class="about-wellcome">Team of professional World of Tanks players at your service, helping you get marks, credits, missions and tanks.
+                                </h3>
+                            </div>
+
+                        </div>
+                        <div class="social">
+                            <ul>
+                                <li><a href="https://www.facebook.com/tanksmarketboostshop"><i
+											class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/wot.boost.shop/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="https://www.ebay.com/usr/tanks-market.eu?fbclid=IwAR3YJayTQ4agIy3a38H5ZZvspMQKlAsIMiTtG_NvWV3UA0IOtL-nuNy4Uz8"><i class="fa fa-ebay"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="social">
+                            <button type="button" class="btn1" onclick="sendEmail()">
+								<h4>Contact Us</h2>
+							</button>
+                        </div>
+                        <div>
+                            <div class="social">
+                                <h3 style="color: white;">Servers:</h3>
+                            </div>
+                            <div style="margin: 0% 35%;">
+                                <div class="col-md-6" style="text-align: center;">
+                                    <img class="server-icon" src="/images/Flag_of_Europe.svg" alt="EU">
+                                </div>
+                                <div class="col-md-6" style="text-align: center;">
+                                    <img class="server-icon" src="/images/Flag_of_the_United_States.svg" alt="US">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //banner-info -->
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="moe" id="moe">
+            <div class="container banner-dot">
+                <h1 class="moe-title">Marks of Exelence</h1>
+                <div class="col-md-12 moe-content">
+                    <h2>
+                        Contact us over mail or social media messages for specific tank and we will 3 gun mark any tank for you,with this package u get braging rights and eyecandy of a tank in random battles or any other mode
+                    </h2>
+                </div>
+                <div class="jumbotron jumbotron-fluid">
+                    <div class="container">
+                        <h3 class="display-4">Requirements:</h3>
+                        <ul>
+                            <li class="list-group-item list-group-item-warning" style="margin-bottom: 0.2%; background: orange; border: orangered; color: black;">Tank must have 100% trained crew with atleast 2-3 skills (sixth sense in mandatory)</li>
+                            <li class="list-group-item list-group-item-warning" style="margin-bottom: 0.2%; background: orange; border: orangered; color: black;">Tank must have equipment mounted (our players are free to change setup to their preferences)</li>
+                            <li class="list-group-item list-group-item-warning" style="background: orange; border: orangered; color: black;">Minimum of 2.000.000 credits for gold ammo and consumables 4.Premium Account for duration of our contract</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="grind" id="grind">
+            <div class="container banner-dot">
+                <h1 class="credit-title margin-bottom: 20%;">CREDITS GRIND</h1>
+                <div class="credit-content" style="text-align: center; margin-left: 10%;">
+                    <div class="card-group" style="text-align: center; padding: 0 0%; display: inline;">
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 17rem; background: orange; border: black;">
+                                <h4 class="card-title" style="color: #83579d; padding: 2%;">Wn8: 3100+ 60% winratio</h4>
+                                <div class="card-body text-center">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item" style="background: orange; color: black; border: none;"><span style="vertical-align: middle;">Credits:</span> <span style="font-size: 20px; font-style: italic oblique; color: rgb(124, 123, 123); vertical-align: middle;">2.000.000</span></li>
+                                        <li class="list-group-item" style="background: orange; color: black; border: none;">Delivery time: <span>24 hr</span></li>
+                                        <li class="list-group-item" style="background: orange; color: black; border: none;"><span style="vertical-align: middle;">Price:</span> <span style="font-size: 24px; vertical-align: middle;">8.40 €</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card bg-warning" style="width: 17rem; background: orange; border: black;">
+                                <h4 class="card-title" style="color: #83579d; padding: 2%;">Wn8:2300+</h4>
+                                <div class="card-body text-center">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item" style="background: orange; color: black; border: none;"><span style="vertical-align: middle;">Credits:</span> <span style="font-size: 20px; font-style: italic oblique; color: rgb(124, 123, 123); vertical-align: middle;">6.000.000</span></li>
+                                        <li class="list-group-item" style="background: orange; color: black; border: none;">Delivery time: <span>48-36 hr</span></li>
+                                        <li class="list-group-item" style="background: orange; color: black; border: none;"><span style="vertical-align: middle;">Price:</span> <span style="font-size: 24px; vertical-align: middle;">18.00 €</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 17rem; background: orange; border: black;">
+                                <h4 class="card-title" style="color: #83579d; padding: 2%;">Wn8: 3100+</h4>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item" style="background: orange; color: black; border: none;"><span style="vertical-align: middle;">Credits:</span> <span style="font-size: 20px; font-style: italic oblique; color: rgb(124, 123, 123); vertical-align: middle;">5.000.000</span></li>
+                                    <li class="list-group-item" style="background: orange; color: black; border: none;">Delivery time: <span>36-48 hr</span></li>
+                                    <li class="list-group-item" style="background: orange; color: black; border: none;"><span style="vertical-align: middle;">Price:</span> <span style="font-size: 24px; vertical-align: middle;">17.50 €</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 17rem; background: orange; border: black;">
+                                <h4 class="card-title" style="color: black; padding: 2%;">Wn8: 2300+</h4>
+                                <div class="card-body text-center">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item" style="background: orange; color: black; border: none;"><span style="vertical-align: middle;">Credits:</span> <span style="font-size: 20px; font-style: italic oblique; color: rgb(124, 123, 123); vertical-align: middle;">10.000.000</span></li>
+                                        <li class="list-group-item" style="background: orange; color: black; border: none;">Delivery time: <span>3-5 days</span></li>
+                                        <li class="list-group-item" style="background: orange; color: black; border: none;"><span style="vertical-align: middle;">Price:</span> <span style="font-size: 24px; vertical-align: middle;">30.00 €</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 17rem; background: orange; border: black;">
+                                <h4 class="card-title" style="color: black; padding: 2%;">Wn8: 3100</h4>
+                                <div class="card-body text-center">
+                                    <ul class="list-group list-group-flush">
+                                        <li class="list-group-item" style="background: orange; color: black; border: none;"><span style="vertical-align: middle;">Credits:</span> <span style="font-size: 20px; font-style: italic oblique; color: rgb(124, 123, 123); vertical-align: middle;">10.000.000</span></li>
+                                        <li class="list-group-item" style="background: orange; color: black; border: none;">Delivery time: <span>3-5 days</span></li>
+                                        <li class="list-group-item" style="background: orange; color: black; border: none;"><span style="vertical-align: middle;">Price:</span> <span style="font-size: 24px; vertical-align: middle;">35.78 €</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="or279" id="or279">
+            <div class="container banner-dot">
+                <div class="col-lg-4">
+                    <h1>PERSONAL MISSIONS FOR 260/279</h1>
+                </div>
+                <div class="col-md-4">
+                    <div class="jumbotron jumbotron-fluid">
+                        <div class="container">
+                            <h3>Stuck with some missions for 260 or 279? Slide in our DM and we will get it done for you</h3>
+                            <h3 class="display-4">Requirements:</h3>
+                            <ul>
+                                <li class="list-group-item list-group-item-warning" style="margin-bottom: 0.2%; background: orange; border: orangered; color: black;">Premium-Account</li>
+                                <li class="list-group-item list-group-item-warning" style="margin-bottom: 0.2%; background: orange; border: orangered; color: black;">At least 500 gold</li>
+                                <li class="list-group-item list-group-item-warning" style="margin-bottom: 0.2%; background: orange; border: orangered; color: black;">2-3 tanks from tier 7 to 10 of each nation</li>
+                                <li class="list-group-item list-group-item-warning" style="background: orange; border: orangered; color: black;">One arty from all nations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ourTeam" id="ourTeam">
+            <div class="container banner-dot">
+                <h1 class="credit-title margin-bottom: 20%;">Why tanks-market and meet the team</h1>
+                <h3 style="margin: 0 5%;">Why tanks-market? Professionalsm together with Top results,fast grind and confidentiality, we are mods free and disciplined players. Our team is made up of seasoned veterans playing since beta stage of our favorite game. Friendly bunch
+                    of players with high skill cap at your disposal.
+                </h3>
+                <div class="credit-content" style="text-align: center; margin-left: .5%;">
+                    <div class="card-group" style="text-align: center; padding: 0 0%; display: inline;">
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 17rem; background: rgba(255, 166, 0, 0.432); border: black;">
+                                <h2 class="card-title display-1" style="background: rgba(255, 166, 0, 0.616); color: black; padding: 2%; font-weight: bold;">Dragan</h4>
+                                    <div class="card-body text-center">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Country:</span> <span style="font-size: 24px; vertical-align: middle;">Serbia</span><img class="cntry-flag" src="images/serbia.svg"></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Age:</span> <span style="font-size: 24px; vertical-align: middle;">28</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Fav Tank:</span> <span style="font-size: 24px; vertical-align: middle;">BC-25T</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">WN8:</span> </span> <span style="font-size: 24px; vertical-align: middle; color: #83579d; font-weight: bold;">3290</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">WinRate:</span> <span style="font-size: 24px; vertical-align: middle; color: #83579d; font-weight: bold;">61.56</span></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 17rem; background: rgba(255, 166, 0, 0.432); border: black;">
+                                <h2 class="card-title display-1" style="background: rgba(255, 166, 0, 0.616); color: black; padding: 2%; font-weight: bold;">Nemanja</h4>
+                                    <div class="card-body text-center">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Country:</span> <span style="font-size: 24px; vertical-align: middle;">Serbia</span><img class="cntry-flag" src="images/serbia.svg"></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Age:</span> <span style="font-size: 24px; vertical-align: middle;">30</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Fav Tank:</span> <span style="font-size: 24px; vertical-align: middle;">OBJ 907</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">WN8:</span> </span> <span style="font-size: 24px; vertical-align: middle; color: #83579d; font-weight: bold;">2936</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">WinRate:</span> <span style="font-size: 24px; vertical-align: middle; color: #83579d; font-weight: bold;">61.36</span></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 17rem; background: rgba(255, 166, 0, 0.432); border: black;">
+                                <h2 class="card-title display-1" style="background: rgba(255, 166, 0, 0.616); color: black; padding: 2%; font-weight: bold;">Mirko</h4>
+                                    <div class="card-body text-center">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Country:</span> <span style="font-size: 24px; vertical-align: middle;">Serbia</span><img class="cntry-flag" src="images/serbia.svg"></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Age:</span> <span style="font-size: 24px; vertical-align: middle;">23</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Fav Tank:</span> <span style="font-size: 24px; vertical-align: middle;">S.CONQ</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">WN8:</span> </span> <span style="font-size: 24px; vertical-align: middle; color: #83579d; font-weight: bold;">3055</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">WinRate:</span> <span style="font-size: 24px; vertical-align: middle; color: #83579d; font-weight: bold;">63.90</span></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 17rem; background: rgba(255, 166, 0, 0.432); border: black;">
+                                <h2 class="card-title display-1" style="background: rgba(255, 166, 0, 0.616); color: black; padding: 2%; font-weight: bold;">Ivan</h4>
+                                    <div class="card-body text-center">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Country:</span> <span style="font-size: 24px; vertical-align: middle;">Serbia</span><img class="cntry-flag" src="images/serbia.svg"></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Age:</span> <span style="font-size: 24px; vertical-align: middle;">23</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Fav Tank:</span> <span style="font-size: 24px; vertical-align: middle;">EBR 105</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">WN8:</span> </span> <span style="font-size: 24px; vertical-align: middle; color: #83579d; font-weight: bold;">3014</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">WinRate:</span> <span style="font-size: 24px; vertical-align: middle; color: #83579d; font-weight: bold;">61.82</span></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 17rem; background: rgba(255, 166, 0, 0.432); border: black;">
+                                <h2 class="card-title display-1" style="background: rgba(255, 166, 0, 0.616); color: black; padding: 2%; font-weight: bold;">Adnan</h4>
+                                    <div class="card-body text-center">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Country:</span> <span style="font-size: 24px; vertical-align: middle;">BiH</span><img class="cntry-flag" src="images/bosnia.svg"></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Age:</span> <span style="font-size: 24px; vertical-align: middle;">27</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Fav Tank:</span> <span style="font-size: 24px; vertical-align: middle;">AMX 50B</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">WN8:</span> </span> <span style="font-size: 24px; vertical-align: middle; color: #83579d; font-weight: bold;">2847</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">WinRate:</span> <span style="font-size: 24px; vertical-align: middle; color: #83579d; font-weight: bold;">53.91</span></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card" style="width: 17rem; background: rgba(255, 166, 0, 0.432); border: black;">
+                                <h2 class="card-title display-1" style="background: rgba(255, 166, 0, 0.616); color: black; padding: 2%; font-weight: bold;">Dane</h4>
+                                    <div class="card-body text-center">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Country:</span> <span style="font-size: 24px; vertical-align: middle;">Serbia</span><img class="cntry-flag" src="images/serbia.svg"></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Age:</span> <span style="font-size: 24px; vertical-align: middle;">34</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">Fav Tank:</span> <span style="font-size: 24px; vertical-align: middle;">LEOPARD 1</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">WN8:</span> </span> <span style="font-size: 24px; vertical-align: middle; color: #83579d; font-weight: bold;">2513</span></li>
+                                            <li class="list-group-item" style="background: rgba(255, 166, 0, 0.432); color: black; border: none;"><span style="vertical-align: middle;">WinRate:</span> <span style="font-size: 24px; vertical-align: middle; color: #83579d; font-weight: bold;">59.78</span></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
