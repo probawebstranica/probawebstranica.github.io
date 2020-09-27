@@ -304,7 +304,7 @@ th {
     }
     .table-bordered th,
     .table-bordered td {
-        border: 1px solid #ddd !important;
+        border: 0px none rgba(221, 221, 221, 0) !important;
     }
 }
 
@@ -2858,7 +2858,7 @@ th {
 }
 
 .table-bordered {
-    border: 1px solid #ddd;
+    border: 1px none #ddd;
 }
 
 .table-bordered>thead>tr>th,
@@ -2867,7 +2867,7 @@ th {
 .table-bordered>thead>tr>td,
 .table-bordered>tbody>tr>td,
 .table-bordered>tfoot>tr>td {
-    border: 1px solid #ddd;
+    border: 1px none #ddd;
 }
 
 .table-bordered>thead>tr>th,
