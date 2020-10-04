@@ -555,7 +555,485 @@ body {
     display: inline;
 }
 
-@media screen and (max-width: 735px) {
+@media screen and (max-width: 1880px) {
+    .navbar-right {
+        float: none !important;
+    }
+    .header-left {
+        padding-left: 10px;
+    }
+    body a {
+        transition: 0.5s all;
+        -webkit-transition: 0.5s all;
+        -o-transition: 0.5s all;
+        -moz-transition: 0.5s all;
+        -ms-transition: 0.5s all;
+    }
+    html,
+    body {
+        font-size: 90%;
+        font-family: 'Ubuntu';
+        background: url(../images/our-team.jpg) repeat 0px 0px;
+    }
+    /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+    .servers {
+        right: 10px;
+        top: 10%;
+        height: 100px;
+        z-index: 999;
+    }
+    /*-- banner --*/
+    .banner {
+        background: url(../images/banner.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        position: inherit;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .moe {
+        background: url(../images/MoE.jpg) no-repeat 0px 0px;
+        font-family: 'Ubuntu';
+        text-align: center;
+        color: white;
+        background-size: cover;
+        position: inherit;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .jumbotron {
+        background: #22222759;
+        border-radius: 0%;
+    }
+    .moe-title {
+        margin-bottom: 5%;
+    }
+    .moe-content {
+        margin-bottom: 10%;
+    }
+    .credit-title {
+        margin-bottom: 2.5%;
+    }
+    .credit-content {
+        margin-bottom: 10%;
+    }
+    .moe h1 {
+        font-size: 80px;
+        color: rgb(253, 174, 27);
+    }
+    .cntry-flag {
+        margin-left: 2%;
+        width: 50px;
+        height: 50px;
+    }
+    .grind h1 {
+        font-size: 80px;
+        color: rgb(253, 174, 27);
+    }
+    .ourTeam h1 {
+        font-size: 80px;
+        color: rgb(253, 174, 27);
+    }
+    .req {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .req ul {
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .req li {
+        background-color: orange;
+        border: #4aff03;
+        border-width: 25px;
+        color: black;
+        list-style: none;
+        font-style: italic;
+    }
+    .grind {
+        background: url(../images/TenksGrind.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        font-family: 'Ubuntu';
+        text-align: center;
+        color: white;
+        position: inherit;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .grind div.col-lg-4 {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 18%;
+        padding-bottom: 10%;
+    }
+    .grind div.col-md-4 {
+        padding: 18% 0 18% 3%;
+        margin: 2% 0 0 10%;
+        vertical-align: center;
+    }
+    .grind div.col-lg-4 h1 {
+        font-size: 80px;
+        color: #FFA300;
+    }
+    .server-icon {
+        height: 30%;
+        width: 35%;
+        border-radius: 25px;
+    }
+    .server-icon-us {
+        height: 60px;
+        width: 90px;
+        border-radius: 25px;
+    }
+    .or279 {
+        background: url(../images/260or279.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        font-family: 'Ubuntu';
+        text-align: center;
+        color: white;
+        position: inherit;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .or279 div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 10%;
+        padding-bottom: 18%;
+        margin: 2% 0 0 5%;
+    }
+    .or279 div.col-md-4 {
+        padding: 10% 0 15% 0%;
+        margin: 0% 0% 0 20%;
+        vertical-align: center;
+    }
+    .or279 div.col-lg-4 h1 {
+        font-size: 80px;
+        color: #FFA300;
+    }
+    .clanWars {
+        background: url(../images/cw.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        font-family: 'Ubuntu';
+        text-align: center;
+        color: white;
+        position: inherit;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .clanWars div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 10%;
+        padding-bottom: 18%;
+        margin: 2% 0 0 5%;
+    }
+    .clanWars div.col-md-4 {
+        padding: 10% 0 15% 0%;
+        margin: 0% 0% 0 20%;
+        vertical-align: center;
+    }
+    .clanWars div.col-lg-4 h1 {
+        font-size: 80px;
+        color: #FFA300;
+    }
+    .steelhunter {
+        background: url(../images/fort\ steel.jpg) no-repeat 0px 0px;
+        background-size: cover;
+        font-family: 'Ubuntu';
+        text-align: center;
+        color: white;
+        position: inherit;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .steelhunter div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 0%;
+        padding-bottom: 18%;
+        margin: 8% 0 0 5%;
+    }
+    .steelhunter div.col-md-4 {
+        padding: 10% 0 15% 0%;
+        margin: 0% 0% 0 20%;
+        vertical-align: center;
+    }
+    .steelhunter div.col-lg-4 h1 {
+        font-size: 80px;
+        color: #FFA300;
+    }
+    .ourTeam {
+        background: url(../images/our-team.jpg) no-repeat 0px 0px;
+        max-width: 100%;
+        background-size: cover;
+        font-family: 'Ubuntu';
+        text-align: center;
+        color: white;
+        position: static;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .ourTeam div.col-lg-4 {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 18%;
+        padding-bottom: 10%;
+    }
+    .ourTeam div.col-md-4 {
+        padding: 18% 0 18% 3%;
+        margin: 2% 0 0 10%;
+        vertical-align: center;
+    }
+    .ourTeam .card-group {
+        text-align: center;
+        padding: 0 0%;
+        display: inline;
+    }
+    .ourTeam div.col-lg-4 h1 {
+        font-size: 80px;
+        color: #FFA300;
+    }
+    .container-fluid {
+        margin-left: 8%;
+    }
+    #dot-nav {
+        right: 1%;
+        top: 50%;
+        margin-top: -50px;
+        height: 100px;
+        z-index: 999;
+    }
+    #dot-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    #dot-nav li {
+        position: relative;
+        border: 3px solid rgba(255, 162, 0, 0.685);
+        border-radius: 15px 15px 15px 15px;
+        cursor: pointer;
+        padding: 5px;
+        height: 10px;
+        margin: 10px 2% 0px 0px;
+        width: 10px;
+        vertical-align: bottom;
+    }
+    #dot-nav li:hover {
+        background-color: #FFA300;
+    }
+    #dot-nav li.active {
+        background-color: #FFA300;
+    }
+    #dot-nav a {
+        outline: 0;
+        vertical-align: top;
+        margin: 0px 0px 0px 25px;
+        position: relative;
+        top: -5px;
+    }
+    .awesome-tooltip+.tooltip>.tooltip-inner {
+        /*background-color: #8e44ad;*/
+        color: #FFA300;
+        font-size: large;
+        background: none;
+    }
+    #servers {
+        left: 10px;
+        top: 20%;
+        height: 40px;
+        width: 250px;
+        z-index: 999;
+        vertical-align: middle;
+    }
+    #servers ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    #servers li {
+        position: relative;
+        border: 3px solid rgba(255, 162, 0, 0.685);
+        border-radius: 15px 15px 15px 15px;
+        cursor: pointer;
+        padding: 5px;
+        height: 10px;
+        margin: 10px 10px 0px 0px;
+        width: 10px;
+        vertical-align: bottom;
+    }
+    #servers li:hover {
+        background-color: #FFA300;
+    }
+    #servers li.active {
+        background-color: #FFA300;
+    }
+    #servers a {
+        outline: 0;
+        vertical-align: top;
+        margin: 0px 0px 0px 25px;
+        position: relative;
+        top: -5px;
+    }
+    .awesome-tooltip+.tooltip.left>.tooltip-arrow {
+        top: 50%;
+        right: 0;
+        margin-top: -5px;
+        border: 5px solid transparent;
+    }
+    .banner-dot {
+        background: url(../images/dott.png)repeat 0px 0px;
+        background-size: 2px;
+        -webkit-background-size: 2px;
+        -moz-background-size: 2px;
+        -o-background-size: 2px;
+        -ms-background-size: 2px;
+        padding: 0em 0 0 0;
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    /*-- header-top --*/
+    .header-top {
+        padding: 1em 0;
+        background: rgba(0, 0, 0, 0.52);
+        position: relative;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+    .header-left {
+        padding-left: 50px;
+        vertical-align: super;
+        float: left;
+        width: 15%;
+    }
+    .header-left h1 {
+        margin: 1;
+    }
+    .header-left h1 a {
+        color: #FFA300;
+        text-decoration: none;
+        font-family: 'Ubuntu';
+        font-size: 1em;
+    }
+    .header-left h1 a span {
+        color: #ffffff;
+        display: block;
+        font-size: .3em !important;
+        text-transform: uppercase;
+        letter-spacing: 14px;
+    }
+    .header-middle {
+        float: left;
+        width: 38%;
+        margin: .9em 0 0 12em;
+        text-align: center;
+    }
+    .header-middle ul {
+        padding: 0;
+        margin: 0;
+    }
+    .header-middle ul li {
+        list-style-type: none;
+        display: inline-block;
+        font-size: 1em;
+        color: #fff;
+        margin-right: 2em;
+    }
+    .header-middle ul li:nth-child(2) {
+        margin-right: 0;
+    }
+    .header-middle ul li span {
+        font-size: 1.5em;
+        vertical-align: text-bottom;
+        margin-right: .5em;
+    }
+    .header-middle ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
+    .header-right {
+        float: right;
+        width: 18.2%;
+    }
+    /*-- //header-top --*/
+    .header {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.29);
+    }
+    /*--top-nav--*/
+    .navbar-default {
+        background: none;
+        border: none;
+        margin: 0;
+    }
+    .navbar-right {
+        float: right !important;
+        margin-right: 0px;
+        text-align: center;
+    }
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus {
+        color: #99abd5;
+        background: none;
+    }
+    .navbar-nav>li {
+        margin: 0 .5em;
+        display: inline-block;
+        float: none;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #FFFFFF;
+        font-size: 1em;
+        padding: 1.8em 0.5em;
+        position: relative;
+    }
+    .navbar-default .navbar-nav>li>a:hover,
+    .navbar-default .navbar-nav>li>a:focus,
+    .navbar-default .navbar-nav li a.active {
+        font-style: bold;
+        color: #FFA300;
+    }
+    .navbar-default .navbar-nav>li>a:before {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        background: #FFA300;
+        height: 3px;
+        width: 0;
+        left: 0;
+        transition: .5s all;
+    }
+    .navbar-default .navbar-nav li a:hover:before,
+    .navbar-default .navbar-nav li a.active:before {
+        width: 100%;
+    }
+    .card-group {
+        text-align: center;
+        padding: 0 0%;
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 1200px) {
     .navbar-right {
         float: none !important;
     }
@@ -757,13 +1235,13 @@ body {
     .steelhunter div.col-lg-4 {
         padding-left: 0%;
         padding-right: 0%;
-        padding-top: 20%;
+        padding-top: 0%;
         padding-bottom: 18%;
-        margin: 2% 0 0 5%;
+        margin: 0% 0 0 20%;
     }
     .steelhunter div.col-md-4 {
-        padding: 5% 0 0% 0%;
-        margin: 0% 0% 0 0%;
+        padding: 0% 0 0% 0%;
+        margin: 0% 0% 0% 0%;
         vertical-align: center;
     }
     .steelhunter div.col-lg-4 h1 {
