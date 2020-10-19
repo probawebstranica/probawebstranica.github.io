@@ -23,6 +23,16 @@ body {
     z-index: 999;
 }
 
+div.d-flex.justify-content-center {
+    margin: 5% 30% 4.5% 30%;
+}
+
+.grind-table {
+    width: 80%;
+    background: orange;
+    border: black;
+}
+
 
 /*-- banner --*/
 
@@ -261,6 +271,11 @@ body {
     right: 0;
     bottom: 0;
     left: 0;
+}
+
+.ourTeam.credit-content {
+    text-align: center;
+    max-width: 90%;
 }
 
 .ourTeam div.col-lg-4 {
@@ -2829,7 +2844,234 @@ p.address {
 
 /*-- responsive --*/
 
+@media(max-width: 1680px) {
+    .steelhunter div.col-lg-4 {
+        font-size: 40%;
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin: 0% 0 0 5%;
+    }
+    .steelhunter div.col-md-4 {
+        padding: 15% 0 15% 0%;
+        margin: 0% 0% 0 20%;
+        vertical-align: center;
+    }
+    .steelhunter div.col-lg-4 h1 {
+        font-size: 100px;
+        color: #FFA300;
+    }
+    .clanWars div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 15%;
+        padding-bottom: 10%;
+        margin: 0% 0 0 5%;
+    }
+    .or279 div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 15%;
+        padding-bottom: 10%;
+        margin: 0% 0 0 5%;
+    }
+    .or279 div.col-md-4 {
+        padding: 15% 0 15% 0%;
+        margin: 0% 0% 0 20%;
+        vertical-align: center;
+    }
+    .or279 div.col-lg-4 h1 {
+        font-size: 100px;
+        color: #FFA300;
+    }
+}
+
+@media(max-width: 1440px) {
+    .steelhunter div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 20%;
+        padding-bottom: 10%;
+        margin: 0% 0 0 5%;
+    }
+    .steelhunter div.col-md-4 {
+        padding: 20% 0 15% 0%;
+        margin: 0% 0% 0 20%;
+        vertical-align: center;
+    }
+    .steelhunter div.col-lg-4 h1 {
+        font-size: 80px;
+        color: #FFA300;
+    }
+    .clanWars div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 20%;
+        padding-bottom: 10%;
+        margin: 0% 0 0 5%;
+    }
+    .clanWars div.col-lg-4 h1 {
+        font-size: 80px;
+    }
+    .clanWars div.col-md-4 {
+        padding: 15% 0 15% 0%;
+        margin: 0% 0% 0 20%;
+        vertical-align: center;
+    }
+    .or279 div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 20%;
+        padding-bottom: 10%;
+        margin: 0% 0 0 5%;
+    }
+    .or279 div.col-md-4 {
+        padding: 15% 0 15% 0%;
+        margin: 0% 0% 0 20%;
+        vertical-align: center;
+    }
+    .or279 div.col-lg-4 h1 {
+        font-size: 80px;
+        color: #FFA300;
+    }
+}
+
+@media(max-width: 1400px) {
+    .steelhunter div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 20%;
+        padding-bottom: 10%;
+        margin: 0% 0 0 5%;
+    }
+    .steelhunter div.col-md-4 {
+        padding: 20% 0 15% 0%;
+        margin: 0% 0% 0 20%;
+        vertical-align: center;
+    }
+    .steelhunter div.col-lg-4 h1 {
+        font-size: 80px;
+        color: #FFA300;
+    }
+    .clanWars div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 17.5%;
+        padding-bottom: 10%;
+        margin: 0% 0 0 5%;
+    }
+    .clanWars div.col-lg-4 h1 {
+        font-size: 80px;
+    }
+    .clanWars div.col-md-4 {
+        padding: 15% 0 15% 0%;
+        margin: 0% 0% 0 20%;
+        vertical-align: center;
+    }
+    .or279 div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 20%;
+        padding-bottom: 10%;
+        margin: 0% 0 0 5%;
+    }
+    .or279 div.col-md-4 {
+        padding: 15% 0 15% 0%;
+        margin: 0% 0% 0 20%;
+        vertical-align: center;
+    }
+    .or279 div.col-lg-4 h1 {
+        font-size: 80px;
+        color: #FFA300;
+    }
+    .ourTeam h1 {
+        font-size: 75px;
+        color: rgb(253, 174, 27);
+    }
+}
+
+@media(max-width: 1280px) {
+    .or279 div.col-md-4 {
+        padding: 15% 0 10% 0%;
+        margin: 0% 0% 0 25%;
+        vertical-align: center;
+    }
+    .steelhunter div.col-md-4 {
+        padding: 20% 0 15% 0%;
+        margin: 5% 0% 0 25%;
+        vertical-align: center;
+    }
+}
+
 @media(max-width:1080px) {
+    .ourTeam h1 {
+        font-size: 50px;
+        color: rgb(253, 174, 27);
+    }
+    .ourTeam.credit-content {
+        max-width: 100%;
+        text-align: center;
+    }
+    .steelhunter div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 35%;
+        padding-bottom: 10%;
+        margin: 0% 50% 0% 0%;
+    }
+    .steelhunter div.col-md-4 {
+        padding: 0% 0 0% 0%;
+        margin: -22.5% 80% 0% 60%;
+        vertical-align: center;
+    }
+    .steelhunter div.col-lg-4 h1 {
+        font-size: 40px;
+        color: #FFA300;
+    }
+    .or279 div.col-lg-4 {
+        padding-left: 10%;
+        padding-right: 45%;
+        padding-top: 30%;
+        padding-bottom: 10%;
+        margin: 0% 0 0 0%;
+    }
+    .or279 div.col-md-4 {
+        padding: 0% 0 0% 0%;
+        margin: -35% 0% 0 60%;
+        vertical-align: center;
+    }
+    .or279 div.col-lg-4 h1 {
+        font-size: 50px;
+        color: #FFA300;
+    }
+    .clanWars div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 0%;
+        padding-bottom: 10%;
+        margin: 0% 0 0 5%;
+    }
+    .clanWars div.col-lg-4 h1 {
+        font-size: 80px;
+    }
+    .clanWars div.col-md-4 {
+        padding: 0% 0 0% 0%;
+        margin: 0% 0% 0 0%;
+        min-width: 100%;
+        vertical-align: center;
+    }
+    .grind div.col-sm-6 {
+        padding: 0% 0 0% 0%;
+        margin: 0% 0 0 0%;
+        vertical-align: center;
+    }
+    .grind h1 {
+        margin-bottom: 0;
+    }
+    .grind-table {
+        width: 100%
+    }
     .header-middle {
         width: 43%;
         margin: .9em 0 0 8em;
@@ -2849,6 +3091,14 @@ p.address {
 }
 
 @media(max-width:1024px) {
+    .banner {
+        font-size: 80%;
+    }
+    div.d-flex.justify-content-center {
+        margin: auto;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
     .header-left {
         width: 18%;
     }
@@ -2871,6 +3121,18 @@ p.address {
 }
 
 @media(max-width:991px) {
+    .steelhunter div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 20%;
+        padding-bottom: 5%;
+        margin: 8% 0 0 5%;
+    }
+    .steelhunter div.col-md-4 {
+        padding: 0% 0 0% 0%;
+        margin: auto;
+        vertical-align: center;
+    }
     .agileits_welcome_grid_right {
         margin: 2em 0 0 0;
     }
@@ -2910,6 +3172,49 @@ p.address {
 }
 
 @media(max-width:768px) {
+    .ourTeam {
+        background: url(../images/our-team.jpg) repeat-x 0px 100%;
+        font-family: 'Ubuntu';
+        text-align: center;
+        color: white;
+        position: fixed;
+    }
+    .ourTeam .card-group {
+        text-align: center;
+        padding: 0 0%;
+        display: flexbox;
+    }
+    .ourTeam div.col-lg-4 {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-top: 18%;
+        padding-bottom: 10%;
+    }
+    .ourTeam div.col-md-4 {
+        padding: auto;
+        margin: auto;
+        vertical-align: center;
+    }
+    .ourTeam div.col-lg-4 h1 {
+        font-size: 80px;
+        color: #FFA300;
+    }
+    .or279 div.col-lg-4 {
+        padding-left: 0%;
+        padding-right: 0%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin: 0% 0 0 0%;
+    }
+    .or279 div.col-md-4 {
+        padding: 5% 0 15% 0%;
+        margin: auto;
+        vertical-align: center;
+    }
+    .or279 div.col-lg-4 h1 {
+        font-size: 60px;
+        color: #FFA300;
+    }
     .banner-info {
         padding: 4em 0;
     }
@@ -3129,6 +3434,10 @@ p.address {
 }
 
 @media(max-width:480px) {
+    .grind h1 {
+        font-size: 50px;
+        color: rgb(253, 174, 27);
+    }
     .header-middle {
         width: 69%;
     }
@@ -3178,6 +3487,17 @@ p.address {
 }
 
 @media(max-width:414px) {
+    .moe h1 {
+        font-size: 40px;
+        color: rgb(253, 174, 27);
+    }
+    .grind-table {
+        font-size: 80%;
+        max-width: 100%;
+    }
+    .clanWars h1 {
+        font-size: 60%;
+    }
     .header-left {
         width: 47%;
     }
@@ -3221,13 +3541,92 @@ p.address {
     }
 }
 
+@media(max-width:411px) {
+    .clanWars div.col-lg-4 h1 {
+        font-size: 50px;
+    }
+    .moe h2 {
+        font-size: 120%;
+    }
+    .navbar-right {
+        width: 100%;
+    }
+    .team-social-grids ul li {
+        margin: 0 0em 0 0;
+    }
+}
+
 @media(max-width:384px) {
+    .clanWars div.col-lg-4 h1 {
+        font-size: 50px;
+    }
+    .navbar-right {
+        width: 100%;
+    }
     .team-social-grids ul li {
         margin: 0 0em 0 0;
     }
 }
 
 @media(max-width:375px) {
+    .moe h2 {
+        font-size: 150%;
+    }
+    .clanWars div.col-lg-4 h1 {
+        font-size: 30px;
+    }
+    .grind h1 {
+        font-size: 30px;
+    }
+    .moe h2 {
+        font-size: 20px;
+    }
+    .navbar-right {
+        width: 100%;
+    }
+    .header-left {
+        width: 52%;
+    }
+    .w3layouts-text h2 {
+        margin: 0em 0 1em;
+    }
+    .banner-info {
+        padding: 3em 0;
+    }
+    .agileits_updates_grid_left1 h4 {
+        width: 90px;
+        height: 120px;
+    }
+    .agileits_updates_grid_left1 h4 {
+        padding: .5em 0 0 0;
+    }
+    .or279 div.col-lg-4 h1 {
+        font-size: 30px;
+    }
+}
+
+@media(max-width:360px) {
+    .moe h2 {
+        font-size: 120%;
+    }
+    .moe li {
+        font-size: 80%;
+    }
+    .clanWars div.col-lg-4 h1 {
+        font-size: 30px;
+    }
+    .grind h1 {
+        font-size: 140%
+    }
+    .grind-table {
+        font-size: 70%;
+    }
+    .or279 div.col-lg-4 h1 {
+        font-size: 30px;
+    }
+    .navbar-right {
+        width: 100%;
+    }
     .header-left {
         width: 52%;
     }
@@ -3247,6 +3646,10 @@ p.address {
 }
 
 @media(max-width:320px) {
+    .grind-table {
+        font-size: 60%;
+        max-width: 100%;
+    }
     .header-left {
         width: 56%;
     }
