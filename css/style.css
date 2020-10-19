@@ -2888,6 +2888,12 @@ p.address {
 }
 
 @media(max-width: 1440px) {
+    .moe h1 {
+        font-size: 60px;
+    }
+    .moe h2 {
+        font-size: 20px;
+    }
     .steelhunter div.col-lg-4 {
         padding-left: 0%;
         padding-right: 0%;
@@ -2927,12 +2933,13 @@ p.address {
         margin: 0% 0 0 5%;
     }
     .or279 div.col-md-4 {
+        font-size: 12px;
         padding: 15% 0 15% 0%;
         margin: 0% 0% 0 20%;
         vertical-align: center;
     }
     .or279 div.col-lg-4 h1 {
-        font-size: 80px;
+        font-size: 60px;
         color: #FFA300;
     }
 }
