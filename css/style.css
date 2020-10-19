@@ -2890,6 +2890,9 @@ p.address {
 @media(max-width: 1440px) {
     .navbar-right {
         width: 100%;
+        float: center !important;
+        margin-right: auto;
+        text-align: center;
     }
     .moe h1 {
         font-size: 60px;
