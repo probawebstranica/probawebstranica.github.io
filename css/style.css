@@ -2889,7 +2889,7 @@ p.address {
 
 @media(max-width: 1440px) {
     .navbar-right {
-        margin: auto;
+        width: 100%;
     }
     .moe h1 {
         font-size: 60px;
