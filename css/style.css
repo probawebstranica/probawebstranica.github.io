@@ -2888,6 +2888,9 @@ p.address {
 }
 
 @media(max-width: 1440px) {
+    .navbar-right {
+        margin: auto;
+    }
     .moe h1 {
         font-size: 60px;
     }
