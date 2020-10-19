@@ -3323,14 +3323,17 @@ p.address {
 }
 
 @media(max-width:720px) {
-    .about-wellcome {
-        font-size: 25px;
+    .w3layouts-text h3 {
+        font-size: 15px;
     }
     .moe h1 {
-        font-size: 60px;
+        font-size: 40px;
     }
     .grind h1 {
         font-size: 60px;
+    }
+    .grind-table {
+        font-size: 10px;
     }
     .or279 h1 {
         font-size: 60px;
