@@ -3315,6 +3315,50 @@ p.address {
     }
 }
 
+@media(max-width:720px) {
+    .about-wellcome {
+        font-size: 25px;
+    }
+    .moe h1 {
+        font-size: 60px;
+    }
+    .grind h1 {
+        font-size: 60px;
+    }
+    .or279 h1 {
+        font-size: 60px;
+    }
+    .clanWars div.col-lg-4 h1 {
+        font-size: 60px;
+    }
+    .steelhunter div.col-lg-4 h1 {
+        font-size: 60px;
+    }
+    .header-left {
+        width: 28%;
+        float: left;
+        margin: 0 2em 1em;
+    }
+    .header-middle {
+        margin: .9em 0 0 0em;
+        width: 55%;
+    }
+    .header-right {
+        width: 35%;
+    }
+    .search input[type="search"] {
+        width: 77%;
+    }
+    .search form input[type="submit"] {
+        width: 45px;
+    }
+    i#jzBoxClose {
+        top: 30px;
+        right: 0;
+        margin: 0 -6em 0 0;
+    }
+}
+
 @media(max-width:667px) {
     .header-left {
         width: 28%;
